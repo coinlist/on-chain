@@ -52,6 +52,6 @@ The repository is organized by blockchain ecosystem and supporting documentation
 ## Links
 
 - **Official Website:** https://coinlist.co
-- **Support:** https://support.coinlist.co
+- **Support:** [Open a ticket](https://support.coinlist.co/en/support/tickets/new)
 - **Security Contact:** security@coinlist.co
 - **Status Page:** https://status.coinlist.co
