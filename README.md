@@ -9,10 +9,9 @@ and enabling public review and audits of production code.
 
 ## Security & Audits
 
-Security is a primary focus for CoinList. Contracts in this repository undergo a professional
-third-party security audits prior to use in a production environment. Audit reports are published
-separately and may be referenced by CoinList and/or the auditing firms themselves. This repository
-serves as the canonical source for the audited code.
+Contracts in this repository may undergo a professional third-party security audits prior to use in
+a production environment. Audit reports are published separately and may be referenced by CoinList
+and/or the auditing firms themselves.
 
 ### Responsible Disclosure
 

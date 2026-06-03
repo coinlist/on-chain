@@ -1,0 +1,13 @@
+# agent state
+.antigravitycli
+.claude
+.code
+branches
+tmp/
+
+# Project-level workspace overrides
+.vscode/
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
