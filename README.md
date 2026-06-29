@@ -9,9 +9,9 @@ and enabling public review and audits of production code.
 
 ## Security & Audits
 
-Contracts in this repository may undergo a professional third-party security audits prior to use in
-a production environment. Audit reports are published separately and may be referenced by CoinList
-and/or the auditing firms themselves.
+Contract code in this repository may undergo a professional third-party security audit prior to use
+in a production environment. Audit reports are published separately and may be referenced by
+CoinList and/or the auditing firms themselves.
 
 ### Responsible Disclosure
 
