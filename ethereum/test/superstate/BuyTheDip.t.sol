@@ -190,11 +190,6 @@ contract BuyTheDip is Test {
 
         Total memory t = ss.totals(ALICE, address(inT));
 
-        // NOTE: the foundry tracer (-vvvv) has lost its fucking mind, leave these logs in as comments for now
-        // NOTE: re: it is showing the SaleTotal struct here in the trace, no idea why, will be reporting to them
-        // console.log(t.count);
-        // console.log(t.inputSum);
-
         assertEq(t.count, 1);
         assertEq(t.inputSum, 100000000);
         assertEq(t.outputSum, 100);

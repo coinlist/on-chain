@@ -13,7 +13,7 @@ via [soldeer](https://soldeer.xyz/).
 
 ### Sale id
 
-Every deployed sale contract carries a `bytes32 id` — the unique identifier of thesale it serves.
+Every deployed sale contract carries a `bytes32 id` — the unique identifier of the sale it serves.
 The same `id` ties together a sale's Fund and Dist deployments.
 
 ### Kinds

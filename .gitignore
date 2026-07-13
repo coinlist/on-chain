@@ -5,6 +5,10 @@
 branches
 tmp/
 
+# secrets / local env
+.env
+.env*
+
 # Project-level workspace overrides
 .vscode/
 .idea/

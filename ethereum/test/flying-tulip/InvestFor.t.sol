@@ -179,7 +179,6 @@ contract FlyingTulipInvestFor is Test {
         assertEq(fund.commit(users, options, tokens, amounts), true);
 
         vm.mockCall(PUT_MANAGER, abi.encodeWithSelector(INVEST_SELECTOR), abi.encode(1));
-        // investFor now callable..
         assertEq(fund.investFor(users, options, tokens, amounts), true);
         vm.stopPrank();
     }

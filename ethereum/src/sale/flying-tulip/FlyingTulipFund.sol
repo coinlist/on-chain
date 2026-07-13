@@ -112,9 +112,6 @@ contract FlyingTulipFund is IFlyingTulipFund, TokenSaleFund {
     function toggleCommitBalanceOverride() external onlyOwner returns (bool) {
         commitBalanceOverride = !commitBalanceOverride;
 
-        // TODO rework this contract if revisiting for new stop mechanism
-        // emit Toggled(!commitBalanceOverride, commitBalanceOverride);
-
         return true;
     }
 }
