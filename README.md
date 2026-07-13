@@ -1,17 +1,18 @@
-# Contracts
+# CoinList On-Chain
 
-This repository serves as the official public registry for smart contracts deployed by CoinList.
-Its purpose is to host the smart contracts used for CoinList token sales, providing transparency
-and enabling public review and audits of production code.
+This repository serves as the official public registry for Ethereum smart-contracts and Solana
+programs developed and deployed by CoinList. The main purpose of this on-chain infrastructure it to
+be used by CoinList to operate the offers that it provides.
 
-> **Note:** These contracts are provided for transparency and verification only. They are designed
-> for CoinList-operated sales and are not intended as a development framework for third-party use.
+> **Note:** The software in this repository are provided for transparency and verification purposes
+> only. They are designed for CoinList-operated sales and are not intended as a development
+> framework for third-party use.
 
 ## Security & Audits
 
-Contract code in this repository may undergo a professional third-party security audit prior to use
-in a production environment. Audit reports are published separately and may be referenced by
-CoinList and/or the auditing firms themselves.
+Software in this repository may undergo a professional third-party security audit prior to use in a
+production environment. Audit reports are published separately and may be referenced by CoinList
+and/or the auditing firms themselves.
 
 ### Responsible Disclosure
 
@@ -21,32 +22,13 @@ If you believe you have identified a security vulnerability:
 2. Email **security@coinlist.co** with a detailed description of the issue.
 3. Allow reasonable time for investigation and remediation prior to any public disclosure.
 
-## Deployed Contracts
-
-The following fund contracts have been used in production for CoinList offerings:
-
-| Project      | Address                                     | Chain            |
-|--------------|---------------------------------------------|------------------|
-| Zama         | 0xE5Ae8f0C646dBc1111DbdED801A03Cf7CE0508b1  | Ethereum Mainnet |
-| Flying Tulip | 0xf6844473a6079f4992a156b67Ff4C70605d95B84  | Ethereum Mainnet |
-| USD.ai       | 0x2063A7dd34068559f6BfFaBBFfBC53993204eE4A  | Ethereum Mainnet |
-
-## Repository Structure
-
-The repository is organized by blockchain ecosystem and supporting documentation:
-
-```text
-    contracts/
-    └── ethereum/
-        └── sales/           # Solidity contracts for Ethereum token sales
-```
-
 ## Usage Notes
 
-- Contracts in this repository are **production** contracts, not examples.
-- Deploying or modifying these contracts for third-party use is **not supported** by CoinList.
-- Interaction with deployed contracts should occur only through official CoinList interfaces,
-  unless explicitly documented otherwise on https://coinlist.co.
+- Sofware in this repository is intended as **production** release, not examples.
+- Deploying or modifying this software for third-party use is **not supported** though not
+  explicitly forbidden by CoinList. Licensing varies depending on specific module.
+- Interaction with deployed contracts or programs should occur only through official CoinList
+  interfaces, unless explicitly documented otherwise on https://coinlist.co.
 
 ## Links
 
