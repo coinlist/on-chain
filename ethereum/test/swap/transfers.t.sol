@@ -5,6 +5,7 @@ import {Test} from "forge-std/Test.sol";
 import {TestToken} from "shared/TestToken.sol";
 import {TokenSwap} from "swap/TokenSwap.sol";
 import {Preview} from "swap/Types.sol";
+import {Ownable} from "solady/auth/Ownable.sol";
 
 // base contract is abstract, thus we must create child to deploy
 contract TSwap is TokenSwap {
@@ -42,16 +43,18 @@ contract Transfers is Test {
     }
 
     function testRevertNotOwnerTxferInput() public {
-        vm.expectRevert();
+        vm.expectRevert(Ownable.Unauthorized.selector);
         vm.prank(SOMEONE);
 
+        // forge-lint: disable-next-line(erc20-unchecked-transfer)
         swap.transfer(SOMEONE_ELSE, address(inT), 10000000000);
     }
 
     function testRevertNotOwnerTxferOutput() public {
-        vm.expectRevert();
+        vm.expectRevert(Ownable.Unauthorized.selector);
         vm.prank(SOMEONE);
 
+        // forge-lint: disable-next-line(erc20-unchecked-transfer)
         swap.transfer(SOMEONE_ELSE, 10000000000);
     }
 

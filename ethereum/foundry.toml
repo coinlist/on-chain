@@ -6,9 +6,12 @@ libs = ["lib", "dependencies"]
 [profile.ci]
 verbosity = 4
 
+[lint]
+severity = ["high", "med", "low", "gas", "code-size"]
+
 [soldeer]
 remappings_generate = true
-remappings_regenerate = true
+remappings_regenerate = false
 remappings_version= true
 remappings_location = "txt"
 
