@@ -63,7 +63,7 @@ via deregistration.
 
 ### Registry — `src/registry/Registry.sol`
 
-On-chain directory mapping `(id, kind)` to a deployment address.
+Onchain directory mapping `(id, kind)` to a deployment address.
 
 ### Factory — `src/factory/Factory.sol`
 
@@ -80,7 +80,7 @@ Tracks `DistTotal { distCount, distSum }`.
 
 ### TokenSwap — `src/swap/TokenSwap.sol`
 
-Abstract base for performing on chain token swaps. Tracks
+Abstract base for performing onchain token swaps. Tracks
 `SwapTotal { inputSum, feeSum, outputSum, count }`.
 
 ## Shared library — `lib/shared`
