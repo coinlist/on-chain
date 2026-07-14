@@ -1,9 +1,16 @@
 # CoinList — Ethereum Contracts
 
-Solidity contracts that power CoinList token sales. The core flow is a two-stage pipeline: users'
-funds are gathered in a **Fund** (`commit`), and tokens are later handed out by a **Distribution**
-(`distribute`). A separate **Swap** family provides an alternate, integration-driven acquisition
-path.
+Solidity contracts that power CoinList token sales. 
+
+### Token Sales
+The core flow is a two-stage pipeline: users' funds are gathered in a **Fund** (`commit`), and tokens are
+later handed out by a **Distribution** (`distribute`).
+
+### Token Swaps
+A separate **Swap** family provides an alternate, integration-driven acquisition path.
+
+### Deployment and Tracking
+Automated deployments of contracts are available via the **Factory** with their locations known to the **Registry**
 
 Contracts are written in Solidity `0.8.34`, built and tested with
 [Foundry](https://book.getfoundry.sh/), and depend on [solady](https://github.com/Vectorized/solady)
