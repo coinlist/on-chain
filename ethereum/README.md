@@ -51,19 +51,19 @@ via deregistration.
 ### Deployments
 
 | Environment | Chain | Registry | Sale Factory |
-|-------------|-------|----------|--------------|
+|-------------|-------|----------|______________|
 | Beta | Ethereum Mainnet | — | — |
-| Beta | Ethereum Sepolia | [`0x7a346b350e4D1F8A2878182aED11dc9b417274B7`](https://sepolia.etherscan.io/address/0x7a346b350e4D1F8A2878182aED11dc9b417274B7) | [`0xb1C46E187DbA2833aC9b219fD396c233e4f92A9D`](https://sepolia.etherscan.io/address/0xb1C46E187DbA2833aC9b219fD396c233e4f92A9D) |
+| Beta | Ethereum Sepolia | [`0x7a346b350e4D1F8A2878182aED11dc9b417274B7`](https://sepolia.etherscan.io/address/0x7a346b350e4D1F8A2878182aED11dc9b417274B7) | [`0xb1C46E187DbA2833aC9b219fD396c233e4[...]
 | Beta | Base Mainnet | — | — |
-| Beta | Base Sepolia | [`0xe3261636cd943722F157336AEAABa8B7D71a6495`](https://sepolia.basescan.org/address/0xe3261636cd943722F157336AEAABa8B7D71a6495) | [`0xE5Ae8f0C646dBc1111DbdED801A03Cf7CE0508b1`](https://sepolia.basescan.org/address/0xE5Ae8f0C646dBc1111DbdED801A03Cf7CE0508b1) |
-| Prod | Ethereum Mainnet | [`0xF90a1A7ECa0880fBCd061b4819371a5A2989Bf2a`](https://etherscan.io/address/0xF90a1A7ECa0880fBCd061b4819371a5A2989Bf2a) | [`0x71f9727Dfb3fd000d8eCaf66866c3EF8d22012A9`](https://etherscan.io/address/0x71f9727Dfb3fd000d8eCaf66866c3EF8d22012A9) |
-| Prod | Ethereum Sepolia | [`0x6F0a9f4D109DDF34281216107B8c565871F85041`](https://sepolia.etherscan.io/address/0x6F0a9f4D109DDF34281216107B8c565871F85041) | [`0xf7610942c87B05892335F08ce5337BC0E3493292`](https://sepolia.etherscan.io/address/0xf7610942c87B05892335F08ce5337BC0E3493292) |
-| Prod | Base Mainnet | [`0xD627B38F6188038EDA7e13Cb7126CF7c0f154B84`](https://basescan.org/address/0xD627B38F6188038EDA7e13Cb7126CF7c0f154B84) | [`0xe3261636cd943722F157336AEAABa8B7D71a6495`](https://basescan.org/address/0xe3261636cd943722F157336AEAABa8B7D71a6495) |
-| Prod | Base Sepolia | [`0xf6844473a6079f4992a156b67Ff4C70605d95B84`](https://sepolia.basescan.org/address/0xf6844473a6079f4992a156b67Ff4C70605d95B84) | [`0x7A35FFC54381F688f44997042bae03dE67bE8493`](https://sepolia.basescan.org/address/0x7A35FFC54381F688f44997042bae03dE67bE8493) |
+| Beta | Base Sepolia | [`0xe3261636cd943722F157336AEAABa8B7D71a6495`](https://sepolia.basescan.org/address/0xe3261636cd943722F157336AEAABa8B7D71a6495) | [`0xE5Ae8f0C646dBc1111DbdED801A03Cf7CE0508[...]
+| Prod | Ethereum Mainnet | [`0xF90a1A7ECa0880fBCd061b4819371a5A2989Bf2a`](https://etherscan.io/address/0xF90a1A7ECa0880fBCd061b4819371a5A2989Bf2a) | [`0x71f9727Dfb3fd000d8eCaf66866c3EF8d22012A9`][...]
+| Prod | Ethereum Sepolia | [`0x6F0a9f4D109DDF34281216107B8c565871F85041`](https://sepolia.etherscan.io/address/0x6F0a9f4D109DDF34281216107B8c565871F85041) | [`0xf7610942c87B05892335F08ce5337BC0E3[...]
+| Prod | Base Mainnet | [`0xD627B38F6188038EDA7e13Cb7126CF7c0f154B84`](https://basescan.org/address/0xD627B38F6188038EDA7e13Cb7126CF7c0f154B84) | [`0xe3261636cd943722F157336AEAABa8B7D71a6495`](htt[...]
+| Prod | Base Sepolia | [`0xf6844473a6079f4992a156b67Ff4C70605d95B84`](https://sepolia.basescan.org/address/0xf6844473a6079f4992a156b67Ff4C70605d95B84) | [`0x7A35FFC54381F688f44997042bae03dE67bE84[...]
 
 ### Registry — `src/registry/Registry.sol`
 
-On-chain directory mapping `(id, kind)` to a deployment address.
+Onchain directory mapping `(id, kind)` to a deployment address.
 
 ### Factory — `src/factory/Factory.sol`
 
@@ -80,7 +80,7 @@ Tracks `DistTotal { distCount, distSum }`.
 
 ### TokenSwap — `src/swap/TokenSwap.sol`
 
-Abstract base for performing on chain token swaps. Tracks
+Abstract base for performing onchain token swaps. Tracks
 `SwapTotal { inputSum, feeSum, outputSum, count }`.
 
 ## Shared library — `lib/shared`
